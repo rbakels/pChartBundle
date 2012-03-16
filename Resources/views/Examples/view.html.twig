@@ -1,0 +1,6 @@
+{% block body %}
+<h1>{{ title }}</h1>
+<img src="{{ path('pChart_example', {'number': number}) }}" />
+<hr/>
+<a href="{{ path('pChart_view', {'number': (number - 1) }) }}"><< Previous</a><span style="float: right"><a href="{{ path('pChart_view', {'number': (number + 1) }) }}">>> Next</a></span>
+{% endblock %}

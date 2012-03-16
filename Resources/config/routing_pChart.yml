@@ -1,0 +1,11 @@
+pChart_index: 
+    pattern:  /index
+    defaults: { _controller: XlabpChartBundle:Examples:index }
+
+pChart_view: 
+    pattern:  /view/{number}
+    defaults: { _controller: XlabpChartBundle:Examples:view }
+
+pChart_example: 
+    pattern:  /example/{number}
+    defaults: { _controller: XlabpChartBundle:Examples:example }
